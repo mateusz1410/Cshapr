@@ -10,7 +10,10 @@ namespace Klasy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("git");
+            Console.WriteLine("Daj tekst");
+           string tekst= Console.ReadLine();
+            Console.WriteLine(tekst);
+
             Console.ReadKey();
         }
     }
